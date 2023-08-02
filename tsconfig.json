@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2016", // versão do ES que ser convertido
+    "module": "commonjs", // modulo que ser representado
+    "typeRoots": ["node_modules/@types"], // Caminhos que o copilador ira utilizar para encontrar as tipagens
+    "esModuleInterop": true, //ativar e desativar a sintexa de importação
+    "forceConsistentCasingInFileNames": true, // garante que os nomes dos arquivos sejam escritos da mesma forma
+    "strict": true, //ativa e desetiva os modo restrito de tipagem
+    "exactOptionalPropertyTypes": true, // se o tipo de props opcionais sao exatas
+    "skipLibCheck": true // para que o copitador pule os tipos de tipagens de bibliotecas
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
